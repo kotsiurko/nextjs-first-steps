@@ -27,7 +27,7 @@ export default function Home({ allPostsData }) {
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>{title}</Link>
               <br />
-              Category: {id}
+              Category option: {id}
               <br />
               <small className={utilStyles.lightText}>
                 <Date dateString={date} />
